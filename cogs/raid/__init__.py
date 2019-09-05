@@ -314,18 +314,20 @@ Quick and ugly: <https://discordapp.com/oauth2/authorize?client_id=4539639655219
         await asyncio.sleep(300)
         await ctx.send("**The bandit officers arrive in 25 minutes**")
         await asyncio.sleep(150)
-        await ctx.send(
-            "**Bandit Officer**: This is our last warning. Hand out all your goods and Gold!"
-        )
+        await ctx.send("**Bandit Officer**: This is our last warning. Hand out all your goods and Gold!")
         await asyncio.sleep(150)
         await ctx.send("**The bandit officers arrive in 20 minutes**")
-        await asyncio.sleep(300)
+        await asyncio.sleep(150)
+        await ctx.send("Marc, please place text in here."
+        await asyncio.sleep(150)
         await ctx.send("**The bandit officers arrive in 15 minutes**")
         await asyncio.sleep(150)
         await ctx.send("**Bandit Officer**: You all gathering fast together. I see.")
         await asyncio.sleep(150)
         await ctx.send("**The bandit officers arrive in 10 minutes**")
-        await asyncio.sleep(300)
+        await asyncio.sleep(150)
+        await ctx.send("**Kvothe wraps you in his cloak of shadows you gain additional protection from forces of evil.**")
+        await asyncio.sleep(150)
         await ctx.send("**The bandit officers arrive in 5 minutes**")
         await asyncio.sleep(120)
         await ctx.send("**The bandit officers arrive in 3 minutes**")
@@ -341,6 +343,8 @@ Quick and ugly: <https://discordapp.com/oauth2/authorize?client_id=4539639655219
         await ctx.send("**The bandit officers arrive in 20 seconds**")
         await asyncio.sleep(10)
         await ctx.send("**Bandit Officer**: For our lord and savior, War God Fox!!")
+        await asyncio.sleep(10)
+        await ctx.send("**War God Fox is bringing up the blood moon. The Bandit Officers recieved additional strength for this night.**")
         await asyncio.sleep(10)
         await ctx.send(
             "**The bandit officers are charging! Fetching participant data... Hang on!**"
